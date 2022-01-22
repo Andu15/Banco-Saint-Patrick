@@ -1,0 +1,15 @@
+.logo{
+  @apply w-24 mx-auto my-11;
+}
+
+figcaption{
+  @apply text-center font-Montserrat font-semibold text-4xl	;
+}
+
+.text-bank{
+  @apply text-darkGreen block;
+}
+
+.text-name{
+  @apply text-darkYellow block;
+}
