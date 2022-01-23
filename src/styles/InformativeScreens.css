@@ -3,7 +3,7 @@
 }
 
 .container-top{
-  @apply mx-auto mb-16 flex xl:m-auto;
+  @apply mx-auto mb-12 flex xl:m-auto;
 }
 
 .container-top img{
@@ -28,7 +28,7 @@
 }
 
 .slide-title{
-  @apply font-semibold text-2xl	sm:text-3xl	md:text-4xl	lg:text-5xl	xl:text-6xl	2xl:text-7xl xl:mt-11 text-darkBlack;
+  @apply font-semibold text-2xl	sm:text-3xl	md:text-4xl	lg:text-5xl	xl:text-6xl	2xl:text-7xl xl:mt-11 text-darkBlack mb-2;
 }
 
 .slide-content{
