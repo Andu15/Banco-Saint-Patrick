@@ -1,5 +1,12 @@
+.container-main-logo{
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+
 .logo{
-  @apply w-24 mx-auto my-11;
+  width: 30% !important;
+  @apply mx-auto my-11;
 }
 
 figcaption{
@@ -12,4 +19,16 @@ figcaption{
 
 .text-name{
   @apply text-darkYellow block;
+}
+
+@media (min-width: 650px) { 
+  .logo{
+    width: 20% !important;
+  }
+}
+
+@media (min-width: 1200px) { 
+  .logo{
+    width: 10% !important;
+  }
 }

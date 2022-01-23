@@ -1,0 +1,23 @@
+.carousel-status{
+  display: none;
+}
+
+.dot.selected{
+  background-color: #F6B54D !important;
+}
+
+.carousel-root{
+  margin-top: 20px !important;
+}
+
+@media (min-width: 370px) { 
+  .carousel-root{
+    margin-top: 60px !important;
+  }
+}
+
+@media (min-width: 670px) { 
+  .carousel-root{
+    margin-top: 150px !important;
+  }
+}
